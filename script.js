@@ -5,8 +5,8 @@ function getFormvalue() {
     event.preventDefault();
     
     // Get values from input fields
-    let firstName = document.querySelector("input[name='fname']").value.trim();
-    let lastName = document.querySelector("input[name='lname']").value.trim();
+    let firstName = document.querySelector("input[name='John']").value.trim();
+    let lastName = document.querySelector("input[name='Mark Doe']").value.trim();
     
     // Check if fields are empty
     if (!firstName || !lastName) {
@@ -15,6 +15,6 @@ function getFormvalue() {
     }
     
     // Display full name
-    alert(firstName + " " + lastName);
+    alert(firstName  + lastName);
 
 }
